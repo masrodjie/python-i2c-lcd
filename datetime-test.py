@@ -1,9 +1,9 @@
-import lcd
+from lcddriver import lcd
 from time import time
 from time import sleep
 from datetime import datetime
 
-lcd = lcd.lcd()
+lcd = lcd()
 
 #lcd.display_string("11111111111111111111222222222222222222223333333333333333333344444444444444444444", 1)
 lcd.display_string("LCD", 1)
